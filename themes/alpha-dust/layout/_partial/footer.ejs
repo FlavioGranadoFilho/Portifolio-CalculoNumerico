@@ -1,0 +1,64 @@
+<div class="push"></div>
+
+<footer class="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
+                <h2><%- __('about') %></h2>
+                <p>
+                    <%- theme.footer_about %>
+                </p>
+            </div>
+            <%- partial('footer_recent_posts') %>
+            <%- partial('footer_categories') %>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline footer-social-icons">
+                    <% if(theme.github_url) { %>
+                    <li class="list-inline-item">
+                        <a href="<%- theme.github_url %>"></a>
+                            <span class="footer-icon-container">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <% } %>
+                    <% if(theme.twitter_url) { %>
+                    <li class="list-inline-item">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <% } %>
+                    <% if(theme.facebook_url) { %>
+                    <li class="list-inline-item">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-facebook"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <% } %>
+                    <% if(theme.instagram_url) { %>
+                    <li class="list-inline-item">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-instagram"></i>
+                            </span>
+                        </a>
+                        </a>
+                        </a>
+                    </li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-copyright">
+                    <%- theme.footer_copyright %>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

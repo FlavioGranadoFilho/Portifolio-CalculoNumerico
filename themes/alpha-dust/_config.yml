@@ -1,0 +1,41 @@
+# Logo (Font Awesome Class)
+fa_logo: fa-cube
+
+# Header
+menu:
+  Home: /
+  Arquivos: /archives
+  Sobre: /about.html
+
+# Default post title
+default_post_title: Untitled
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname:
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+twitter_url: https://twitter.com/?lang=en
+facebook_url: https://www.facebook.com/
+instagram_url: https://www.instagram.com/
+dribble_url: https://dribbble.com/
+github_url: https://github.com/klugjo/hexo-theme-alpha-dust
+telegram_url: https://telegram.org/
+behance_url: https://www.behance.net/
+fivehundredpx_url: https://500px.com/
+email_url: test@example.com
+rss_url: \#
+
+# Footer About Text
+footer_about: "Este tema (theme) foi desenvolvido por Flavio Granado Filho. Código disponível no Github."
+
+# Footer Copyright Line
+footer_copyright: "@Untitled. All right reserved | Hexo | Flavio Granado Filho"
+
